@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  nats:
+    image: nats:2.9.11
+    ports:
+      - "4444:4444"
+      - "6222:6222"
+      - "8222:8222"
